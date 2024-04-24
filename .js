@@ -9,3 +9,13 @@ navLinks.forEach(link => {
     // Add your own functionality here, such as smooth scrolling to the clicked section
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const viewMoreButtons = document.querySelectorAll('.benefit-item button');
+
+  viewMoreButtons.forEach(button => {
+      button.addEventListener('click', (event) => {
+          alert('More information coming soon!');
+      });
+    });
+});
