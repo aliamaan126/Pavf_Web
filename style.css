@@ -24,6 +24,7 @@ body {
     z-index: 999;
    
 }
+<<<<<<< HEAD
 
 
 /* Adjustments for padding or margin may be necessary to avoid content being overlapped */
@@ -57,6 +58,40 @@ nav .container {
 }
 
 
+=======
+
+/* Adjustments for padding or margin may be necessary to avoid content being overlapped */
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Logo Animation */
+/* Logo Styling */
+/* Logo Styling */
+.logo img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the image round */
+    overflow: hidden; /* Ensures the image stays within the border-radius */
+    margin-right: 10px; /* Optional: Adds some space between the logo and the menu */
+    transition: transform 0.3s ease; /* Smooth transition for the scale effect */
+}
+
+/* Logo Hover Effect */
+.logo img:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+}
+/* Active Navigation Link */
+.nav-menu li a.active {
+    background-color: #555; /* Background color for the active link */
+}
+
+
+>>>>>>> 8c2a80f14087233eca58d0d05cf8efa29ff109be
 @keyframes spin {
     0% {
         transform: rotate(0deg);
@@ -149,6 +184,7 @@ header h1 {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 #bg-video {
 
    height: 300px;
@@ -242,6 +278,91 @@ footer {
     text-align: center;
 }
 
+=======
+#about,
+#benefits,
+#techniques,
+#cards,
+#contact {
+    padding: 80px 0;
+    text-align: center;
+}
+/* about card  design*/
+.benefit-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.benefit-cards .card {
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 20px 40px;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.benefit-cards .card .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+section p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.benefit,
+.technique {
+    margin: 0 auto 40px;
+    max-width: 300px;
+}
+
+.benefit .icon,
+.technique .icon {
+    font-size: 50px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 40px;
+    margin: 0 auto 40px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+} */
+/* Footer Styling */
+/* Footer Styling */
+footer {
+    background-color: #333;
+    padding: 30px 0;
+    color: #fff;
+    text-align: center;
+}
+
+>>>>>>> 8c2a80f14087233eca58d0d05cf8efa29ff109be
 .container {
     position: relative; /* Ensures proper positioning of the button */
 }
@@ -498,8 +619,11 @@ footer p {
         font-size: 2em; /* Decrease font size for smaller screens */
     }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 8c2a80f14087233eca58d0d05cf8efa29ff109be
     /* Adjustments for sections */
     #about,
     #benefits,
