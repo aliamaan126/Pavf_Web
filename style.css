@@ -25,6 +25,7 @@ body {
    
 }
 
+
 /* Adjustments for padding or margin may be necessary to avoid content being overlapped */
 
 nav .container {
@@ -148,12 +149,22 @@ header h1 {
     margin-bottom: 20px;
 }
 
+#bg-video {
+
+   height: 300px;
+width: auto;
+}
+ 
+#home {
+    height: 400px;
+}
+
 #about,
 #benefits,
 #techniques,
 #cards,
 #contact {
-    padding: 80px 0;
+    padding:100px 0;
     text-align: center;
 }
 /* about card  design*/
@@ -486,6 +497,8 @@ footer p {
     header h1 {
         font-size: 2em; /* Decrease font size for smaller screens */
     }
+
+
 
     /* Adjustments for sections */
     #about,
