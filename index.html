@@ -6,6 +6,9 @@
     <title>Welcome to Vertical Farming Solutions</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Font Awesome CSS CDN link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-oTs/WPhmNQi97RIY5kpP7A60gP0b40+oG9xmBr5C+g8W/+Foj5K+59sMG+0wP37ia9uTc9WYuBqyOo+ZiFmvlQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
@@ -14,43 +17,38 @@
 <nav>
     <div class="container">
         <div class="logo">
-            <a href="#home"><img src="/profile.png" alt="Vertical Farming Solutions"></a>
+            <a href="#home"><img src="/assets/profile.png" alt="Vertical Farming Solutions"></a>
         </div>
-        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        <div class="menu-toggle"><i class="fa fa-bars"></i></div>
         <ul class="nav-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#benefits">Benefits</a></li>
-            <li><a href="#techniques">Techniques</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#cards">Features</a></li>
+            <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-info-circle"></i> About</a></li>
+            <li><a href="#benefits"><i class="fa fa-hand-holding-heart"></i> Benefits</a></li>
+            <li><a href="#techniques"><i class="fa fa-cogs"></i> Techniques</a></li>
+            <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+            <li><a href="#cards"><i class="fa fa-th-list"></i> Features</a></li>
         </ul>
     </div>
 </nav>
 
 
+
     <!-- Header with Banner Image -->
-    <header id="home">
+    <!--<header id="home">
         <h1>Welcome to Vertical Farming Solutions</h1>
-<<<<<<< HEAD
         <img src="/assets/image1.jpg" alt="Vertical Farming Banner">
-    </header>
-<!-- 
+    </header>-->
+
     <header id="home">
         <h1>Welcome to Vertical Farming Solutions</h1>
         <video autoplay muted loop poster="/assets/image1.jpg" id="bg-video">
-            <source src="/assets/invideo-ai-1080 Reviving Green_ The Vertical Farming Rev 2024-04-06 (1).mp4"> -->
+            <source src="/assets/invideo-ai-1080 Reviving Green_ The Vertical Farming Rev 2024-04-06 (1).mp4">
             <!-- Add additional source elements for other video formats if needed -->
-
-            <!-- Your browser does not support the video tag.
-        </video> -->
+            Your browser does not support the video tag.
+        </video>
 
     </header>
 
-=======
-        <img src="/image3.jpg" alt="Vertical Farming Banner">
-    </header>
->>>>>>> 8c2a80f14087233eca58d0d05cf8efa29ff109be
 
     <!-- About Section -->
     <section id="about">
@@ -84,18 +82,18 @@
             </div>
             <div class="card">
                 <div class="icon"><i class="fas fa-seedling"></i></div>
-                <h3>Sustainability</h3>
-                <p>By using renewable energy sources and reducing chemical usage, vertical farming promotes environmental sustainability and ecosystem conservation.</p>
+                <h3>Full Control over the Farm</h3>
+                <p>Vertical farming doesn’t require the on spot presence of the farmer he/she can control and operate the farm remotely.</p>
             </div>
             <div class="card">
                 <div class="icon"><i class="fas fa-seedling"></i></div>
-                <h3>Sustainability</h3>
-                <p>By using renewable energy sources and reducing chemical usage, vertical farming promotes environmental sustainability and ecosystem conservation.</p>
+                <h3>Optimized Resource Consumption</h3>
+                <p>Vertical farming uses less resources than traditional farming, making it an Eco-friendly option for agriculture.</p>
             </div>
             <div class="card">
                 <div class="icon"><i class="fas fa-seedling"></i></div>
-                <h3>Sustainability</h3>
-                <p>By using renewable energy sources and reducing chemical usage, vertical farming promotes environmental sustainability and ecosystem conservation.</p>
+                <h3>No Pesticides</h3>
+                <p>Vertical farming doesn’t require the use of pesticides, making it a healthier and safer option for consumers.</p>
             </div>
         </div>
     </div>
@@ -205,14 +203,7 @@
     <footer>
         <div class="container">
             <p>© 2024 Vertical Farming Solutions. All rights reserved.</p>
-            <ul class="quick-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#techniques">Techniques</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#cards">Features</a></li>
-            </ul>
+
             <!-- Add social media icons -->
             <button class="download-btn">Download</button>
             <div class="social-media">
@@ -254,5 +245,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+</script>
+<!-- media query script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var menuToggle = document.querySelector('.menu-toggle');
+        var navMenu = document.querySelector('.nav-menu');
+    
+        menuToggle.addEventListener('click', function () {
+            navMenu.classList.toggle('active');
+        });
+    });
+    
 </script>
 </html>
